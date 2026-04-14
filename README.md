@@ -1,12 +1,6 @@
-# Article and Comment Frames Shape the Quality of Online Comments
-
-Replication materials for:
-
-> Matteo Guida, Yulia Otmakhova, Eduard Hovy and Lea Frermann. (to appear). Article and Comment Frames Shape the Quality of Online Comments. *Findings of ACL 2026*.
-
 ## Overview
 
-This repository provides the data and analysis code to replicate the main statistical results of the paper. We examine how article framing affects the health of online comments (RQ1) and how the health of top-level comments propagates through reply threads (RQ2), across ~1M comments from The New York Times (NYT) and The Globe and Mail (SOCC).
+This repository provides the data and analysis code to replicate the main statistical results of the paper "Article and Comment Frames Shape the Quality of Online Discourse" (Findings of ACL 2026). We examine how article framing affects the health of online comments (RQ1) and how the health of top-level comments propagates through reply threads (RQ2), across ~1M comments from The New York Times (NYT) and The Globe and Mail (SOCC).
 
 ## Repository structure
 
