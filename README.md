@@ -57,7 +57,7 @@ One row per top-level comment that has at least one reply. Columns:
 
 ### `ucc/`
 
-Balanced high-confidence splits of the [Unhealthy Comment Corpus](https://huggingface.co/datasets/ucberkeley-dlab/unhealthy-conversations) (Price et al., 2020), used to fine-tune the health classifier. Each file contains `unit_id`, `healthy` (0/1 label), and `healthy_confidence` — no comment text is included. To replicate training, download the original UCC and join on `unit_id`.
+Balanced high-confidence splits of the [Unhealthy Comment Corpus]([https://github.com/conversationai/unhealthy-conversations]) (Price et al., 2020), used to fine-tune the health classifier. Each file contains `unit_id`, `healthy` (0/1 label), and `healthy_confidence`.
 
 ## Analysis
 
@@ -116,4 +116,4 @@ Note: the system uses serverless GPU infrastructure; the first request after a p
 
 ## License
 
-Code: MIT. Data: derived from the NYT Comments dataset ([Kaggle](https://www.kaggle.com/datasets/aashita/nyt-comments)) and the SOCC dataset ([Kolhatkar et al., 2020](https://doi.org/10.1007/s41701-019-00060-x)); please consult their respective licenses for reuse.
+Code: MIT. Data: derived from the NYT Comments dataset ([Kaggle](https://www.kaggle.com/datasets/aashita/nyt-comments)) and the SOCC dataset ([Kolhatkar et al., 2020](https://github.com/sfu-discourse-lab/SOCC)); please consult their respective licenses for reuse.
