@@ -57,7 +57,7 @@ One row per top-level comment that has at least one reply. Columns:
 
 ### `ucc/`
 
-Balanced high-confidence splits of the [Unhealthy Comment Corpus](https://huggingface.co/datasets/ucberkeley-dlab/unhealthy-conversations) (Price et al., 2020), used to fine-tune the health classifier. Only `unit_id`, `comment`, `healthy` label, and annotation confidence are included (no comment text modifications).
+Balanced high-confidence splits of the [Unhealthy Comment Corpus](https://huggingface.co/datasets/ucberkeley-dlab/unhealthy-conversations) (Price et al., 2020), used to fine-tune the health classifier. Each file contains `unit_id`, `healthy` (0/1 label), and `healthy_confidence` — no comment text is included. To replicate training, download the original UCC and join on `unit_id`.
 
 ## Analysis
 
