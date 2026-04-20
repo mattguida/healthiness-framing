@@ -101,7 +101,7 @@ mean_thread_health ~ top_comment_health * top_comment_frame + article_topic
 A live demo of the frame-aware comment moderation prototype described in Section 3.3 is available at:
 [mpprng--comment-moderation-agent-commentmoderationservice-serve.modal.run](https://mpprng--comment-moderation-agent-commentmoderationservice-serve.modal.run/)
 
-Note: the system uses serverless GPU infrastructure; the first request after a period of inactivity may take ~30 seconds while models load.
+Note: the system uses serverless GPU infrastructure; the first request after a period of inactivity may take up to 2 minutes for the interface to load.
 
 ## Citation
 
